@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>固定按钮示例</title>
+<style>
+  .fixed-button-container {
+    position: fixed;
+    padding: 30px ;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    text-align: center;
+  }
+  .fixed-button {
+    padding: 10px 60px;
+    background-color: #36bf58;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px
+  }
+</style>
 
-You can use the [editor on GitHub](https://github.com/te78/wfk/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<style>
+  img.responsive {
+    width: 100%; /* 图片宽度是视口宽度的50% */
+    height: auto; /* 高度自动调整以保持图片比例 */
+  }
+</style>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
+ 
+<img src="http://nuyg.fk.dengyixia.cn/storage/bj/20240720/ec730573e21afc236a182ae58aa1b240.jpeg" alt="Sample Image" class="responsive">
+ 
+</body>
 
-```markdown
-Syntax highlighted code block
+<body>
+ 
+<div class="fixed-button-container">
+  <a href="https://www.baidu.com/"><button class="fixed-button">点 击 支 付 9.99 元 永久解锁访客功能</button>
+</div>
+ 
+</body>
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/te78/wfk/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
